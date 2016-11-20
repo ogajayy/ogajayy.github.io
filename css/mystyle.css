@@ -1,0 +1,88 @@
+body, html {
+  margin: 0px;
+  height: 100%;
+
+}
+
+body {
+
+  color: silver;
+}
+
+.landingmovie {
+  width: 100%;
+  min-height: 100%;
+}
+
+.video-foreground {
+  position: absolute;
+  top: 200px;
+  color: white;
+}
+.row{
+  text-align: center;
+}
+.email-form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+
+}
+
+.image-background {
+  background: url("../img/hands.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: 100%;
+}
+
+.image-background.two {
+  background: url("../img/artstuf.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100%;
+}
+
+.image-background.three {
+  background: url("../img/fab2.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: 100%;
+}
+.page-footer {
+  color: white;
+  clear: both;
+  margin: 0px;
+  padding: 0.75em 0.75em;
+  background: gray;
+  position: relative;
+  border-top: 1px solid black;
+}
+
+/*navbar styling*/
+.navbar-nav > li :hover {
+  color: black;
+
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: white;
+}
+
+i {
+  color: inherit;
+}
+/*navbar styling ends here*/
+
+
+
+
+
+canvas {
+  position: absolute;
+  top: 0px;
+ }
+ /*positioning to the very top with no space */
