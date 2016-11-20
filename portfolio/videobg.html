@@ -3,81 +3,98 @@
   <head>
     <meta charset="utf-8">
     <link href = "../css/bootstrap.min.css" rel="stylesheet"/>
+    
     <link href = "../css/mystyle.css" rel= "stylesheet"/>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link href="../css/font-awesome.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
 
-    <title>Video Background</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Frijole|Snowburst+One"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ravi+Prakash|Rock+Salt"
+    rel="stylesheet">
+
+
+    <title>Art Gallery</title>
+    <style>
+    html, body {
+      background-color: black;
+      font-family: "Rock Salt", cursive;
+    }
+    </style>
   </head>
-  <nav class="navbar navbar-fixed-top navbar-inverse">
+  <!--This is the beginning of the nav-bar
+-->
+<nav class="navbar navbar-fixed-top navbar-inverse">
 
 
-    <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-       <button type="button" class="navbar-toggle collapsed"
-        data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-        aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="me.html">ogajayy.com</a>
-      </div>
+<div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+   <button type="button" class="navbar-toggle collapsed"
+    data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+    aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+  </button>
+  <a class="navbar-brand active"href="../me.html"></i>ogajayy</a>
+  </div>
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
 
+          <li><a href="../index.html"><i class="fa fa-home"></i> Home </a></li>
 
+          <li ><a href="../portfolio.html"><i class="fa fa-book">
+          </i> My Portfolio </a></li>
 
+          <li><a href="../contact.html"><i class="fa fa-phone"></i> Contact </a></li>
 
-              <li><a href = "../index.html">Home</a></li>
-              <li><a href="../contact.html">Contact</a></li>
-              <li><a href="../portfolio.html">My Portfolio</a></li>
-              <li class = "active"><a href="videobg.html">Video</a></li>
-                <span class="sr-only">(current)</span></a></li>
-              <li class="dropdown">
+          <li><a href="portfolio/videobg.html"><i class="fa fa-binoculars"></i>
+            Gallery </a></li>
 
-                <a href="list-group" class="dropdown-toggle" data-toggle="dropdown"
-                  role="button" aria-haspopup="true" aria-expanded="false">
-                  Extras <span class="caret">               </span></a>
+          <span class="sr-only">(current)</span></a></li>
+        </ul>
 
-                <ul class="dropdown-menu">
-
-                  <div class="list-group">
-                  
-               <button type="button" class="list-group-item">Cras justo odio</button>
-               <button type="button" class="list-group-item">Dapibus ac facilisis in</button>
-               <button type="button" class="list-group-item">Morbi leo risus</button>
-               <button type="button" class="list-group-item">Porta ac consectetur ac</button>
-               <button type="button" class="list-group-item">Vestibulum at eros</button>
-
-               </div>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
 
 
-                  <li><a href="#">Login</a></li>
-                  <li><a href="#">Gallery</a></li>
-                  <li><a href="#">Connect</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-
-
-  </nav>
+</nav>
 
   <body style ="text-align : center">
     <video class = "landingmovie" src= "../img/earth.mov" type= "video/mov"
       playsinline autoplay muted loop>
     </video>
+    <div class="page-header container">
+    <h1 class = "video-foreground" style="text-align: center"> Oga's Galleria</h1>
+  </div>
+<div class = "container-fluid">
+  <div class = "row">
 
-    <h1 class = "video-foreground"> My Text </h1>
-
+    <div class = "col-md-3">
+      <img src="../img/lady.jpg" alt="my art"
+      style="width:304px;height:228px;">
+      </div>
+      <div class = "col-md-3">
+      <img src="../img/smbag.jpg" alt="my art"
+      style="width:304px;height:228px;">
+    </div>
+      <div class = "col-md-3">
+        <img src="../img/lady.jpg" alt="my art"
+        style="width:304px;height:228px;">
+        </div>
+        <div class = "col-md-3">
+        <img src="../img/smbag.jpg" alt="my art"
+        style="width:304px;height:228px;">
+      </div>
+    </div>
+  </div>
+</div>
   </body>
 </html>
